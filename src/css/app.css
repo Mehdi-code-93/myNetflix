@@ -1,0 +1,75 @@
+/* ============ import =========== */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
+/* ============ all =========== */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-color: #181818;
+}
+.blok-container {
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    grid-gap: 3em;  
+    align-items: center;
+    justify-content: center;
+}
+.container-friend {
+    text-decoration: none;
+    box-shadow: -6px 12px 12px black;
+    text-align: center;
+    padding: 1em;
+    height: 70px;
+    width: 100%;
+}
+.container-friend .member-title {
+    color: mintcream;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.container-friend .member-xp {
+    color: mintcream;
+}
+
+.container-friend .member-account {
+    color: mintcream;
+}
+.button_ajout {
+    text-align: center;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    border: 1px solid #e73e33;
+}
+.groupe-member-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    align-items: center;
+}
+.member-container-xp {
+    display: flex;
+    gap: 9px;
+}
+.member-container-xp .xp_title {
+    color: #e73e33;
+    display: flex;
+    align-items: center;
+}
+.btnAdd2 {
+    width: 25px;
+    height: 25px;
+}
+
+.container-friend .member-account {
+    display: flex;
+    align-items: center;
+}
